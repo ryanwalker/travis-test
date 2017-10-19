@@ -1,0 +1,5 @@
+install:
+  - git remote
+  - git tag hello -am "hello"
+  - git tag
+  - git push --tags
